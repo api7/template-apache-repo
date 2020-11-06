@@ -17,21 +17,4 @@
 #
 -->
 
-# template-repo
-
-Template used to create repository.
-
-<p align="center">
-  <a href="https://github.com/api7/template-repo">English</a> •
-  <a href="https://github.com/api7/template-repo/blob/master/README_CN.md">中文</a>
-</p>
-
-## Contributing
-
-We welcome all kinds of contributions from the open-source community, individuals and partners.
-
-- [Contributing Guide](CONTRIBUTING.md)
-
-## License
-
-[Apache 2.0 License](LICENSE)
+TODO

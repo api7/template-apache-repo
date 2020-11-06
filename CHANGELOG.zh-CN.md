@@ -17,21 +17,12 @@
 #
 -->
 
-# template-repo
+# 目录
 
-Template used to create repository.
+- [1.0.0](#100)
 
-<p align="center">
-  <a href="https://github.com/api7/template-repo">English</a> •
-  <a href="https://github.com/api7/template-repo/blob/master/README_CN.md">中文</a>
-</p>
+## 1.0.0
 
-## Contributing
+发布日期：2020年11月1日
 
-We welcome all kinds of contributions from the open-source community, individuals and partners.
-
-- [Contributing Guide](CONTRIBUTING.md)
-
-## License
-
-[Apache 2.0 License](LICENSE)
+在此补充对该版本清晰、明确的介绍。
