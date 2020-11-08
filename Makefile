@@ -27,7 +27,7 @@ help:
 
 export GO111MODULE=on
 
-### license-check:    Check API7 template-repo source codes for Apache License
+### license-check:    Check API7 template-apache-repo source codes for Apache License
 .PHONY: license-check
 license-check:
 ifeq ("$(wildcard .actions/openwhisk-utilities/scancode/scanCode.py)", "")

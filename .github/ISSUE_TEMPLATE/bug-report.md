@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a bug report for the template-repo
+about: Create a bug report for the template-apache-repo
 labels: "bug"
 ---
 

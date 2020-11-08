@@ -17,7 +17,7 @@
 #
 -->
 
-# Contributing to template-repo
+# Contributing to template-apache-repo
 
 Firstly, thanks for your interest in contributing! I hope that this will be a
 pleasant first experience for you, and that you will return to continue
@@ -29,17 +29,17 @@ Most of the contributions that we receive are code contributions, but you can
 also contribute to the documentation or simply report solid bugs
 for us to fix.
 
-For new contributors, please take a look at issues with a tag called [Good first issue](https://github.com/api7/template-repo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [Help wanted](https://github.com/api7/template-repo/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+For new contributors, please take a look at issues with a tag called [Good first issue](https://github.com/api7/template-apache-repo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [Help wanted](https://github.com/api7/template-apache-repo/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
 ## How to report a bug?
 
-- **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/api7/template-repo/issues).
+- **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/api7/template-apache-repo/issues).
 
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/api7/template-repo/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/api7/template-apache-repo/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
 ## How to add a new feature or change an existing one
 
-_Before making any significant changes, please [open an issue](https://github.com/api7/template-repo/issues)._ Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
+_Before making any significant changes, please [open an issue](https://github.com/api7/template-apache-repo/issues)._ Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
 
 Once we've discussed your changes and you've got your code ready, make sure that tests are passing and open your pull request. Your PR is most likely to be accepted if it:
 
@@ -52,7 +52,7 @@ Once we've discussed your changes and you've got your code ready, make sure that
 
 - Linting/Style
 
-  Use a markdown linting tool to lint the content. The following is a [plugin](https://github.com/api7/template-repo/issues/1273)
+  Use a markdown linting tool to lint the content. The following is a [plugin](https://github.com/api7/template-apache-repo/issues/1273)
   used by our community to lint the docs.
 
 - Active Voice
@@ -70,7 +70,7 @@ Once we've discussed your changes and you've got your code ready, make sure that
   - For titles of a section, capitalize the first letter of each word except for the [closed-class words](https://en.wikipedia.org/wiki/Part_of_speech#Open_and_closed_classes)
     such as determiners, pronouns, conjunctions, and prepositions. Use the following [link](https://capitalizemytitle.com/#Chicago) for guidance.
 
-    - Recommended: Authentication **with** template-repo
+    - Recommended: Authentication **with** template-apache-repo
 
   - For normal sentences, don't [capitalize](https://www.grammarly.com/blog/capitalization-rules/) random words in the middle of the sentences.
     Use the Chicago manual for capitalization rules for the documentation.
@@ -94,7 +94,7 @@ Once we've discussed your changes and you've got your code ready, make sure that
 ## Check code style and test case style
 
 - code style
-  - Please take a look at [template-repo Coding Style Guide](CODE_STYLE.md).
+  - Please take a look at [template-apache-repo Coding Style Guide](CODE_STYLE.md).
 
 ## Do you have questions about the source code?
 

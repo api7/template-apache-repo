@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Create a feature request for the template-repo
+about: Create a feature request for the template-apache-repo
 labels: 'feature'
 ---
 

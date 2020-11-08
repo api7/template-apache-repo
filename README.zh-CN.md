@@ -17,13 +17,13 @@
 #
 -->
 
-# template-repo
+# template-apache-repo
 
 语言无关的仓库模板
 
 <p align="center">
-  <a href="https://github.com/api7/template-repo">English</a> •
-  <a href="https://github.com/api7/template-repo/blob/master/README_CN.md">中文</a>
+  <a href="https://github.com/api7/template-apache-repo">English</a> •
+  <a href="https://github.com/api7/template-apache-repo/blob/master/README_CN.md">中文</a>
 </p>
 
 ## 贡献
