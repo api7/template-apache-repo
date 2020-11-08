@@ -19,19 +19,19 @@
 
 # template-apache-repo
 
-Template used to create repository.
+语言无关的仓库模板
 
 <p align="center">
   <a href="https://github.com/api7/template-apache-repo">English</a> •
   <a href="https://github.com/api7/template-apache-repo/blob/master/README_CN.md">中文</a>
 </p>
 
-## Contributing
+## 贡献
 
-We welcome all kinds of contributions from the open-source community, individuals and partners.
+我们欢迎来自开源社区、个人和合作伙伴的各种贡献。
 
-- [Contributing Guide](CONTRIBUTING.md)
+- [贡献指南](CONTRIBUTING.md)
 
-## License
+## 协议
 
 [Apache 2.0 License](LICENSE)

@@ -1,4 +1,3 @@
-<!--
 #
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -15,23 +14,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
--->
 
-# template-apache-repo
+SHELL := /bin/bash -o pipefail
+UNAME ?= $(shell uname)
 
-Template used to create repository.
+### help:             Show Makefile rules
+.PHONY: help
+help:
+	@echo Makefile rules:
+	@echo
+	@grep -E '^### [-A-Za-z0-9_]+:' Makefile | sed 's/###/   /'
 
-<p align="center">
-  <a href="https://github.com/api7/template-apache-repo">English</a> •
-  <a href="https://github.com/api7/template-apache-repo/blob/master/README_CN.md">中文</a>
-</p>
+export GO111MODULE=on
 
-## Contributing
-
-We welcome all kinds of contributions from the open-source community, individuals and partners.
-
-- [Contributing Guide](CONTRIBUTING.md)
-
-## License
-
-[Apache 2.0 License](LICENSE)
+### license-check:    Check API7 template-apache-repo source codes for Apache License
+.PHONY: license-check
+license-check:
+ifeq ("$(wildcard .actions/openwhisk-utilities/scancode/scanCode.py)", "")
+	git clone https://github.com/apache/openwhisk-utilities.git .actions/openwhisk-utilities
+	cp .actions/ASF* .actions/openwhisk-utilities/scancode/
+endif
+	.actions/openwhisk-utilities/scancode/scanCode.py --config .actions/ASF-Release.cfg ./
